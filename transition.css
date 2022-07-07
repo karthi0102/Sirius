@@ -1,0 +1,32 @@
+.circle{
+    height: 150px;
+    width:150px;
+    background: red;
+    transition:background 3s , border-radius 1s;
+}
+.circle:hover{
+    border-radius: 50%;
+    background:aqua;
+}
+section div{
+    height: 100px;
+    width:100px;
+    background-color:aqua;
+    margin:10px 0;
+    transition: margin-left 3s;
+}
+section:hover div{
+    margin-left:500px;
+}
+div:nth-of-type(1){
+    transition-timing-function: ease-in;
+}
+div:nth-of-type(2){
+    transition-timing-function: ease-out;
+}
+div:nth-of-type(3){
+    transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+div:nth-of-type(4){
+    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);;
+}

@@ -1,0 +1,24 @@
+h1::selection{
+    background-color: aqua;
+}
+button:hover{
+    background-color: red;
+    font-size: 10px;
+}
+button:active{
+    background-color: blue;
+}
+p::selection{
+    color:burlywood;
+}
+nav a{
+    color:hotpink;
+}
+h1+p{
+    border:2px solid red;
+}
+div{
+    height:200px;
+    border:10px solid red;
+    border-style:dashed groove double solid;
+}

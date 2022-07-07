@@ -1,0 +1,23 @@
+body{
+    font-family: monospace;
+    background: #151B29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+button{
+    background: none;
+    color: #FFA216;
+    border:2px solid #FFA216;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    transition: all 0.25s;
+}
+button:hover{
+    border-color: #F1FF5C;
+    color:white;
+    box-shadow: 0 0.5em 0.5rem -0.4rem #F1FF5C;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
